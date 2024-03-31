@@ -32,7 +32,7 @@ app.use(function(req, res, next) {
 
 app.get('/article', function(req, res) {
   // Add your code here
-  res.json({success: 'get call succeed! main article fetched!!!!', url: req.url});
+  res.json({success: 'get call succeed! main article fetched new!!!!', url: req.url});
 });
 
 app.get('/article/*', function(req, res) {
